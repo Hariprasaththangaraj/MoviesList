@@ -6,8 +6,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table
+
 @Entity
+@Table(name="movies_details",schema = "public")
 public class Movies {
 	
 	@Id
