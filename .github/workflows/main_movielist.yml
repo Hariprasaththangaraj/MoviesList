@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'MovieList'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8426A5FC29ED4DF3B64BDED564227290 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AA6C0391817A4FE8A0E62585208A0B57 }}
           package: '*.jar'
